@@ -40,7 +40,7 @@ function App() {
   return (
     <>
     <Router>
-    <Navbar title="TextUtils" mode={mode} toggleMode={toggleMode} aboutText="About"/>
+    <Navbar title="Play With Text" mode={mode} toggleMode={toggleMode} aboutText="About"/>
     <div className="container" style={{backgroundColor : mode==='dark'?'grey':'white'}}>
     <Alert alert={alert}/>
     <Switch>
