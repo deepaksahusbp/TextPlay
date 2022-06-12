@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/TextPlay/static/css/main.073c9b0a.css",
+    "main.js": "/TextPlay/static/js/main.8961274f.js",
+    "static/js/787.719ec76d.chunk.js": "/TextPlay/static/js/787.719ec76d.chunk.js",
+    "static/media/deepak.jpg": "/TextPlay/static/media/deepak.1b352913326e0de63ee3.jpg",
+    "index.html": "/TextPlay/index.html",
+    "main.073c9b0a.css.map": "/TextPlay/static/css/main.073c9b0a.css.map",
+    "main.8961274f.js.map": "/TextPlay/static/js/main.8961274f.js.map",
+    "787.719ec76d.chunk.js.map": "/TextPlay/static/js/787.719ec76d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.8961274f.js"
+  ]
+}
