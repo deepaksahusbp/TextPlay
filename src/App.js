@@ -7,7 +7,7 @@ import About from './components/About';
 import { useState } from 'react';
 import Alert from './components/Alert';
 import {
-  HashRouter as Router,
+  BrowserRouter as Router,
   Switch,
   Route,
   Link
@@ -39,7 +39,7 @@ function App() {
   }
   return (
     <>
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
     <Navbar title="Play With Text" mode={mode} toggleMode={toggleMode} aboutText="About"/>
     <div className="container" style={{backgroundColor : mode==='dark'?'grey':'white'}}>
     <Alert alert={alert}/>
